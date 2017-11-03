@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 
 import operator
+
 ops = {
         '+': operator.add,
         '-': operator.sub,
+        '^': operator.pow,
         }
+
 
 def calculate(myarg):
     stack = list()
